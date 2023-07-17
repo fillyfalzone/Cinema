@@ -1,10 +1,10 @@
 <?php
     // Class Mère Person de Director et Actor
     class Person {
-        protected $_firstName;
-        protected $_lastName;
+        protected string $_firstName;
+        protected string $_lastName;
         protected DateTime $_birthDate;
-        protected $_gender;
+        protected string $_gender;
         // fct° constructeur
         public function __construct(string $firstName, string $lastName, string $birthDate, string $gender){
             $this->_firstName = $firstName;
